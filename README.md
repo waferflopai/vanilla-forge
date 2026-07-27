@@ -45,4 +45,4 @@ Plus a rich **Dark Chocolate** (`#1A110B`) base and warm **French Vanilla** (`#F
 ### npm
 
 ```bash
-npm install vanilla-forge
+npm install vanilla-forge-ui
