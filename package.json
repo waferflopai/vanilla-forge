@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-forge",
-  "version": "1.1.0",
-  "description": "🍫 French Vanilla + Dark Chocolate · Pastel Rainbow · Tactile Heavy GUI Library — The Tailwind Killer",
+  "name": "vanilla-forge-ui",
+  "version": "1.1.1",
+  "description": "description": "🍫 French Vanilla + Dark Chocolate · Pastel Rainbow · Tactile & Responsive GUI Library — Lightweight, beautiful, and zero complexity.",
   "main": "dist/vd.js",
   "module": "dist/vd.esm.js",
   "style": "dist/vd.css",
