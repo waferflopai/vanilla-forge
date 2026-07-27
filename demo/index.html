@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ===== SEO MAX ===== -->
+    <!-- ===== SEO MAX (Hidden from UI, but powers search & social) ===== -->
     <title>VanillaForge · Lightweight, Beautiful GUI Library</title>
     <meta name="description" content="VanillaForge is a lightweight, beautifully crafted GUI library with 7 pastel flavors, tactile components, and zero complexity. French Vanilla + Dark Chocolate aesthetic. Free, open-source, and easy to use." />
     <meta name="keywords" content="vanilla-forge, gui library, css framework, lightweight css, vanilla css, pastel ui, tactile ui, zero dependencies, french vanilla, dark chocolate, ui components, responsive design, free open source, beautiful ui, modern css" />
@@ -1305,6 +1305,10 @@
         <div style="margin-top:1.5rem; border-top:2px solid var(--dc-900); padding-top:0.8rem; font-size:var(--text-xs); color:var(--dc-300);">
             <i class="fas fa-cube"></i> v1.1 · Lightweight
             <br />Tactile · Zero Complexity
+            <br /><br />
+            <a href="https://github.com/waferflopai/vanilla-forge" target="_blank" style="text-decoration:none; color:var(--dc-500);">
+                <i class="fab fa-github"></i> GitHub
+            </a>
         </div>
     </aside>
 
@@ -1344,6 +1348,9 @@
                     <span class="badge badge-ocean"><i class="fas fa-cube"></i> Pure CSS/JS</span>
                     <span class="badge badge-cherry"><i class="fas fa-palette"></i> 7 Flavors</span>
                     <span class="badge badge-primary"><i class="fas fa-bolt"></i> Tactile</span>
+                    <a href="https://github.com/waferflopai/vanilla-forge" target="_blank" class="badge badge-primary" style="text-decoration:none;">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
                 </div>
             </div>
 
@@ -1358,6 +1365,12 @@
                     <div class="code-snippet" style="font-size:0.7rem; background:var(--fv-bg);">
                         &lt;link rel="stylesheet" href="vd.css" /&gt;<br />
                         &lt;script src="vd.js" defer&gt;&lt;/script&gt;
+                    </div>
+                    <div style="margin-top:0.5rem;">
+                        <p style="font-size:var(--text-sm); font-weight:500;">Or via npm:</p>
+                        <div class="code-snippet" style="font-size:0.7rem; background:var(--fv-bg); margin-top:0.3rem;">
+                            npm install vanilla-forge-ui
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1780,14 +1793,19 @@
                     &lt;link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&amp;display=swap" rel="stylesheet" /&gt;
                 </div>
 
-                <h3 style="font-weight:500; margin:1rem 0 0.5rem;">🏷️ 2. Use Components</h3>
+                <h3 style="font-weight:500; margin:1rem 0 0.5rem;">📦 2. Install via npm</h3>
+                <div class="code-snippet">
+                    npm install vanilla-forge-ui
+                </div>
+
+                <h3 style="font-weight:500; margin:1rem 0 0.5rem;">🏷️ 3. Use Components</h3>
                 <div class="code-snippet">
                     &lt;button class="btn btn-primary"&gt;Click Me&lt;/button&gt;
                     &lt;span class="badge badge-lime"&gt;Active&lt;/span&gt;
                     &lt;div class="card"&gt;...&lt;/div&gt;
                 </div>
 
-                <h3 style="font-weight:500; margin:1rem 0 0.5rem;">⚡ 3. JavaScript API</h3>
+                <h3 style="font-weight:500; margin:1rem 0 0.5rem;">⚡ 4. JavaScript API</h3>
                 <div class="code-snippet">
                     // Toasts
                     vd.toast('Hello', 'success')
@@ -1806,7 +1824,7 @@
                     vdCopy('text to copy')
                 </div>
 
-                <h3 style="font-weight:500; margin:1rem 0 0.5rem;">🎨 4. Customize Theme</h3>
+                <h3 style="font-weight:500; margin:1rem 0 0.5rem;">🎨 5. Customize Theme</h3>
                 <div class="code-snippet">
                     /* Override CSS variables in your own stylesheet */
                     :root {
@@ -1828,6 +1846,10 @@
         <div style="border-top:2px solid var(--dc-900); padding-top:1rem; margin-top:2rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; font-size:var(--text-sm); color:var(--dc-300);">
             <span>🍫 VanillaForge · Lightweight · Tactile · Zero Complexity</span>
             <span>
+                <a href="https://github.com/waferflopai/vanilla-forge" target="_blank" style="text-decoration:none; color:var(--dc-300);">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                &nbsp;·&nbsp;
                 <i class="fas fa-palette"></i>
                 Cherry · Lime · Lemon · Watermelon · Grape · Ocean · Sunset
             </span>
